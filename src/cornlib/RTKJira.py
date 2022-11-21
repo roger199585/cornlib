@@ -42,7 +42,7 @@ class JIRABase:
         self.mAttachmentPath = path
         self.mAttachmentName = name
 
-class RTKJIRA(JIRABase):
+class RTKJira(JIRABase):
     mProjectName = ''
     mLABEL_KEY_ISSUE = ''
     mLABEL_1 = ''
